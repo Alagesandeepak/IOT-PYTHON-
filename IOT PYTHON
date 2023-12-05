@@ -1,0 +1,14 @@
+import array 
+college=array.array("i",[3,2,1,4,5,6,7])
+print(college)
+student=college[3]
+print(student)
+college[3]=23
+print(college)
+for d in college:
+print(d)
+
+value=0
+while value<len(college):
+print(college [value]) 
+value=value+1
